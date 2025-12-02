@@ -1,2 +1,2 @@
 # Portfolio
-Created to showcase what Ive coded up until now
+Created to showcase what I've coded up until now
