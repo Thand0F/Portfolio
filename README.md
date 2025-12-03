@@ -10,19 +10,19 @@ Journal Entry Management
 
 - Create journal entries with:
 
-Title
-Content
-Date created (automatic)
-Edit existing entries
-Delete entries
-View all entries in a clean card-style layout
+-- Title
+-- Content
+-- Date created (automatic)
+-- Edit existing entries
+-- Delete entries
+-- View all entries in a clean card-style layout
 
 - Modern UI
 
-Bootstrap 5 styling
-Responsive layout
-Navigation bar for quick access
-Clean and user-friendly design
+- Bootstrap 5 styling
+- Responsive layout
+- Navigation bar for quick access
+- Clean and user-friendly design
 
 - Database Integration
 
