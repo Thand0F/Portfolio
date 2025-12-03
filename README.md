@@ -1,6 +1,6 @@
 # Portfolio
 
-- Deployed WebApp link: https://jobshadowjournal20251203131522-f6amdhe2e6aedpcp.canadacentral-01.azurewebsites.net/ 
+- Deployed WebApp link: https://jobshadowjournal20251203131522-f6amdhe2e6aedpcp.canadacentral-01.azurewebsites.net/
 - GitHubLink: https://github.com/Thand0F/Portfolio.git
 - SQL Server logins: Admin1
 - -------------------Password1!
