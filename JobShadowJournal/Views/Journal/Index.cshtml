@@ -1,0 +1,27 @@
+﻿@model IEnumerable<JobShadowJournal.Models.JournalEntry>
+
+@{
+    ViewData["Title"] = "Journal Entries";
+}
+
+<h2 class="mb-4">📘 Journal Entries</h2>
+
+<a href="/Journal/Create" class="btn btn-success mb-3 btn-rounded">➕ Create New Entry</a>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+
+                    <h5 class="card-title">@item.Title</h5>
+                    <p class="text-muted">@item.DateCreated.ToString("MMMM dd, yyyy")</p>
+
+                    <a href="/Journal/Edit/@item.Id" class="btn btn-primary btn-sm btn-rounded">✏ Edit</a>
+                    <a href="/Journal/Delete/@item.Id" class="btn btn-danger btn-sm btn-rounded">🗑 Delete</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
