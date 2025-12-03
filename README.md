@@ -1,9 +1,12 @@
 # Portfolio
 
+Deployed WebApp link: https://jobshadowjournal20251203131522-f6amdhe2e6aedpcp.canadacentral-01.azurewebsites.net/ 
+GitHubLink: https://github.com/Thand0F/Portfolio.git 
+
 ## Job Shadow Journal – Web Application
 
 A simple and modern ASP.NET Core MVC web application designed to help students or interns track and record what they’ve learned during job shadowing sessions.
-The app provides a clean user interface and full CRUD (Create, Read, Update, Delete) functionality to manage journal entries.
+The app provides a clean user interface and full CRUD (Create, Read, Update, Delete) functionality to manage journal entries. I have also deployed it using the Azure platform to ensure it doesnt just run as a LocalHost. 
 
 ## Features
 Journal Entry Management
