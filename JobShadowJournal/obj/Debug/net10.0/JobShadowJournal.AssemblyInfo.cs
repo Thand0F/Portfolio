@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JobShadowJournal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+762d8a209facad049b022689023dccc8a59fefe5")]
 [assembly: System.Reflection.AssemblyProductAttribute("JobShadowJournal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JobShadowJournal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

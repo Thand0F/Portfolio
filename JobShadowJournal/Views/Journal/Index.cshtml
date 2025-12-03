@@ -17,7 +17,8 @@
 
                     <h5 class="card-title">@item.Title</h5>
                     <p class="text-muted">@item.DateCreated.ToString("MMMM dd, yyyy")</p>
-
+                    
+                    <a class="btn btn-danger" asp-controller="Journal" asp-action="ExportPdf" asp-route-id="@item.Id">📘 Download PDF </a>
                     <a href="/Journal/Edit/@item.Id" class="btn btn-primary btn-sm btn-rounded">✏ Edit</a>
                     <a href="/Journal/Delete/@item.Id" class="btn btn-danger btn-sm btn-rounded">🗑 Delete</a>
                 </div>
