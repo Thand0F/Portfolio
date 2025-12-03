@@ -17,25 +17,25 @@ Create journal entries with:
 - Delete entries
 - View all entries in a clean card-style layout
 
-- Modern UI
+Modern UI
 
 - Bootstrap 5 styling
 - Responsive layout
 - Navigation bar for quick access
 - Clean and user-friendly design
 
-- Database Integration
+Database Integration
 
-Uses SQL Server / LocalDB
-Entity Framework Core for database access
+- Uses SQL Server / LocalDB
+- Entity Framework Core for database access
 
-- Technologies Used
+Technologies Used
 
-# Technology                           # Purpose
+- # Technology                          Purpose
                                       
-ASP.NET Core MVC	                    Web framework and routing
-C#	                                  Backend logic
-Entity Framework Core	                Data access (ORM)
-SQL Server / LocalDB	                Database
-Bootstrap 5	                          Frontend styling
-HTML, CSS, Razor Views	              UI rendering
+- ASP.NET Core MVC	                    Web framework and routing
+- C#	                                  Backend logic
+- Entity Framework Core	                Data access (ORM)
+- SQL Server / LocalDB	                Database
+- Bootstrap 5	                          Frontend styling
+- HTML, CSS, Razor Views	              UI rendering
