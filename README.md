@@ -43,7 +43,7 @@ Technologies Used
 ## How the App Works
 1. User Interface (Views)
 
-Users interact with Razor views containing Bootstrap-styled pages:
+  Users interact with Razor views containing Bootstrap-styled pages:
 
 - Index.cshtml: Shows all journal entries
 
@@ -56,9 +56,10 @@ Users interact with Razor views containing Bootstrap-styled pages:
 These views send form data to the controller.
 
 
+
 2. Routing and Logic (Controllers)
 
-The JournalController contains all CRUD actions:
+  The JournalController contains all CRUD actions:
 
 - Index() → Displays all entries
 
@@ -68,19 +69,20 @@ The JournalController contains all CRUD actions:
 
 - Delete(id) → Remove an entry
 
-The controller uses AppDbContext to communicate with the database.
+  The controller uses AppDbContext to communicate with the database.
+
 
 
 3. Data Layer (EF Core + SQL Server)
 
 - The app uses AppDbContext:
 
-public DbSet<JournalEntry> JournalEntries { get; set; }
+  public DbSet<JournalEntry> JournalEntries { get; set; }
 
-This maps the JournalEntry model to a database table using SQL Server.
+  This maps the JournalEntry model to a database table using SQL Server.
 
 - The database connection string is stored in appsettings.json, example:
 
-"ConnectionStrings": {
+  "ConnectionStrings": {
   "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=JobShadowJournalDB;Trusted_Connection=True;"
-}
+    }
