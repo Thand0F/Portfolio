@@ -8,14 +8,14 @@ The app provides a clean user interface and full CRUD (Create, Read, Update, Del
 # Features
 Journal Entry Management
 
-- Create journal entries with:
+Create journal entries with:
 
--- Title
--- Content
--- Date created (automatic)
--- Edit existing entries
--- Delete entries
--- View all entries in a clean card-style layout
+- Title
+- Content
+- Date created (automatic)
+- Edit existing entries
+- Delete entries
+- View all entries in a clean card-style layout
 
 - Modern UI
 
